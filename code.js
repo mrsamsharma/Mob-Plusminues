@@ -45,7 +45,7 @@ function plusMinus(arr) {
     }
 
     let positive = (positiveNumber/arr.length).toFixed(6);
-    let negative = (negativeNumber/arr.length).toFaixed(6);
+    let negative = (negativeNumber/arr.length).toFixed(6);
     let zero = (zeroNumber/arr.length).toFixed(6);
     
     console.log(positive);
